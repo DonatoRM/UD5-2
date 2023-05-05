@@ -1,0 +1,27 @@
+{
+  "name": "donatorm/ud5-2",
+  "description": "Example of developer in PHP with Blade and Composer",
+  "type": "project",
+  "require": {
+    "philo/laravel-blade": "^3.1",
+    "twbs/bootstrap": "^5.2"
+  },
+  "require-dev": {
+    "scssphp/scssphp": "^1.11"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Donatorm\\Ud52\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "DonatoRM",
+      "email": "donatoramos@hotmail.com"
+    }
+  ],
+  "config": {
+    "optimize-autoloader": true
+  }
+}
